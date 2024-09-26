@@ -1,0 +1,14 @@
+create database youtube;
+
+use youtube;
+
+create table users(id int primary key auto_increment,
+name varchar(50),
+email varchar(50),
+pwd varchar(50),
+cpwd varchar(50),
+contact varchar(50));
+
+select * from users;
+
+
